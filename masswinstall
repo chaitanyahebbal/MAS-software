@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "installing basic softwares required for MAS course"
-echo "list of software required : git ,eclipse,open jdk,medeley,texmaker,texlive-latex-extra, gitk ,terminator(needed for ros: splitting of windows)"
+echo "list of software required : git ,eclipse,open jdk,medeley,texmaker,texlive-latex-extra, gitk ,terminator(needed for ros: splitting of windows),jabref"
 #sudo apt-get install texmaker texlive-latex-extra terminator
 #sudo add-apt-repsotory -y ppa:webupd8team/sublime-text-3
 #sudo apt-get update
