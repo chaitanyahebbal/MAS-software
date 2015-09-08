@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "installing basic softwares required for MAS course"
+echo "list of software required : git ,eclipse,open jdk,medeley,texmaker,texlive-latex-extra, gitk "
+#sudo apt-get install texmaker texlive-latex-extra
+
