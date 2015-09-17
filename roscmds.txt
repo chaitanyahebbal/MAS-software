@@ -1,0 +1,23 @@
+1.create workspace in home directory (preferably) than in ros directory.
+cmd : mkdir -p ~/ros_ws/indigo/foundation_course/src
+
+2. naviagte to src\ and run cmd : catkin_init_workspace
+
+3.Now go one folder back and run cmd: catkin_make
+
+4. comment out enable_anaconda in .bashrc # reason no idea.
+
+5. add custom workspace setup path ~/ros_ws/indigo/foundation_course_ws/devel/setup.sh to .bashrc file. #reason : to redirect roscd from default ros_ws to custom workspace (choice)
+
+6. create package in src\ folder
+   cmd : catkin_create_package <package_name> <direct_dependency>
+
+7. modify the CMakeLists.txt and package.xml files accordingly
+
+8. to start ros master server : roscore(in diff terminal)
+
+9. rosrun <package_name> <filename>
+
+10. rqt_graph : visualization tool for communication between nodes.
+
+11. ros_spin() : method for inifinte loop(commonly used to keep a node running)
