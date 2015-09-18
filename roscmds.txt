@@ -21,3 +21,9 @@ cmd : mkdir -p ~/ros_ws/indigo/foundation_course/src
 10. rqt_graph : visualization tool for communication between nodes.
 
 11. ros_spin() : method for inifinte loop(commonly used to keep a node running)
+
+12. steps to create python module :
+	*add a setup.py file at same level as the src\ .
+	*add a __init__.py file inside the src\.
+	*run following command : sudo python setup.py install 
+	# the above command will add your custom python module to the default		# path slo that you are module can be accessed from other modules  		# without having to worry about the Path config.
