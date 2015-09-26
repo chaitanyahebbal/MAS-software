@@ -32,3 +32,7 @@ command-line tool : rosmasg list -> list all ros_msgs.
 
 2. publishing the topics
 * refer the examples in demo_ros_publishers.
+*rostopic : lists out the publixhed topics and provides it's info.
+rostopic info <publishing node>
+
+* "~" : defines namespace . useful to differentiate the same name topics published by different nodes. it basically creates a private namespace for that topic.
