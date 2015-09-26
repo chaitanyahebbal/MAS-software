@@ -30,9 +30,18 @@ command-line tool : rosmasg list -> list all ros_msgs.
 1. creating ros messages :
 *refer the example in demo_ros_messages
 
-2. publishing the topics
-* refer the examples in demo_ros_publishers.
+2. publishing and subscriber the topics
+* refer the examples in demo_ros_publisher_subscriber_examples.
 *rostopic : lists out the publixhed topics and provides it's info.
 rostopic info <publishing node>
 
+3.client-server : refer to client server examples.
+
+4. services : services in ros have independent identity(basically a template). these are used by servers to provide specific service.different servers can provide same service.
+
+5.custom messages : refer to custom message example.
+
 * "~" : defines namespace . useful to differentiate the same name topics published by different nodes. it basically creates a private namespace for that topic.
+
+* launch :1. this file is used to launch multiple nodes
+	  2. it also provides us the facility to create multiple nodes of same n             ode type. refer to demo_ros_launch. 
