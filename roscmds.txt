@@ -22,12 +22,13 @@ cmd : mkdir -p ~/ros_ws/indigo/foundation_course/src
 
 11. ros_spin() : method for inifinte loop(commonly used to keep a node running)
 
-12. steps to create python module :
-	*add a setup.py file at same level as the src\ .
-	*add a __init__.py file inside the src\.
-	*run following command : sudo python setup.py install 
-	# the above command will add your custom python module to the default		# path slo that you are module can be accessed from other modules  		# without having to worry about the Path config.
+ros - advanced:
 
-13. to ignore a package while compiling add CATKIN_IGNORE file in the desired package.
+command-line tool : rosmsg show <msg_name> -> lists the messages related to specified param.
+command-line tool : rosmasg list -> list all ros_msgs.
 
-14. to compile a single package : catkin_make --pkg <package_name>
+1. creating ros messages :
+*refer the example in demo_ros_messages
+
+2. publishing the topics
+* refer the examples in demo_ros_publishers.
