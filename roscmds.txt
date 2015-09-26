@@ -41,6 +41,8 @@ rostopic info <publishing node>
 
 5.custom messages : refer to custom message example.
 
+6. ros tf : do it yourself(refer online wiki).
+
 * "~" : defines namespace . useful to differentiate the same name topics published by different nodes. it basically creates a private namespace for that topic.
 
 * launch :1. this file is used to launch multiple nodes
